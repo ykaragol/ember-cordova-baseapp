@@ -1,0 +1,50 @@
+ember cdv:plugin add admob-google-cordova
+cordova plugin add cordova-admob
+ember cdv:plugin add cordova-admob
+doskey /history > commands.log
+doskey /history > c:\commands.log
+more commands.log
+bower install --save framework7
+ember s
+n
+ember cdv:serve --platform=browser --env "development"
+ember cdv:platform add browser
+ember cdv:serve --platform=browser --env "development"
+ember cordova:build --environment=production --platform=android
+ember cordova emulate
+ember cdv:platform rm ios
+ember cordova emulate
+y
+ember cdv:platform rm browser
+ember cordova emulate
+y
+ember cordova emulate
+ember s
+y
+ember g controller application
+ember s
+y
+ember cordova emulate
+y
+ember cordova emulate
+y
+doskey /history > c:\commands.log
+doskey /history > commands.log
+rmdir baseapp /q /s 
+ember new baseapp
+cd baseapp
+ember install ember-cordova
+y
+ember install ember-cordova -name=baseapp
+notepad config\environment.js
+ember cdv:platform add android
+explorer .
+ember cdv:platform add android
+ember cdv:platform add browser #experimental
+ember cdv:plugin add cordova-plugin-splashscreen --save
+ember g route application
+notepad app\routes\application.js
+emberember cdv:make-icons
+ember cdv:make-icons
+ember cordova:build --environment=production
+ember cdv:platform add ios
