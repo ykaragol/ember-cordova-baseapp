@@ -1,10 +1,15 @@
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
+  applicationHeader:'Child Tube',
+
   actions:{
     openLeftPanel(){
-      Ember.$(".panel-left").addClass('active');
-      Ember.$(".panel-left").css('display','block ');
+      Ember.$(".sidenav").css('width','100%');
+    },
+
+    closeLeftPanel(){
+      Ember.$(".sidenav").css('width','0%');
     }
   }
 });
